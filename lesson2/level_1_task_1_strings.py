@@ -24,7 +24,6 @@ for symbol in word:
             vowels_count= vowels_count+1
 
 print ('количество гласных ' + str(vowels_count))
-
 print('------')
 print ('Вывести количество слов в предложении')
 sentence = 'Мы приехали в гости'
@@ -63,6 +62,9 @@ letters_sum=0
 for word in sentence:
     words_counter=words_counter+1
     letters_sum=letters_sum +len(word)
+
+
+    
 avg_symbols= letters_sum / words_counter
 avg_symbols = str(avg_symbols)
 print('avg_symbols ' + avg_symbols)
